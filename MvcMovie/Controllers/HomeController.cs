@@ -26,11 +26,15 @@ public class HomeController : Controller
 
 
     
-        public IActionResult Intro()
-        {
-            return Content("Welcome to MyWebApp! This is the Intro method in the Home controller.");
-        }
-    
+    public IActionResult Intro()
+    {
+        return Content("Welcome to MyWebApp!Have a good day.");
+    }
+
+    public IActionResult MyName()
+    {
+        return View();
+    }
     
 
 
