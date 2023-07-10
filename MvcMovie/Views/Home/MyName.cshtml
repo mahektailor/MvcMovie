@@ -1,7 +1,19 @@
 ﻿@{
     ViewData["Title"] = "MyName";
 }
-<h3>@ViewData["Title"]</h3>
+<h3>Mahek Tailor</h3>
+@section MyCustomSection {
+    <p>Humans created created amazing tech.</p>
+}
+<form>
+    <label for="num1">Number 1:</label>
+    <input type="number" id="num1" name="num1" />
 
-<p>Mahek tailor.</p>
+    <label for="num2">Number 2:</label>
+    <input type="number" id="num2" name="num2" />
 
+    <label for="result">Result:</label>
+    <output id="result" name="result"></output>
+
+    <button type="submit">Calculate</button>
+</form>
